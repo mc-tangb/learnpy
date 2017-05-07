@@ -41,6 +41,8 @@ def demo1():
     
     '''生成器'''
     g = (x*x for x in range(10))
+    print(g)
+    print(g.next())
     
 '''杨辉三角''' 
 def triggle():
