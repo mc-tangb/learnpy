@@ -70,6 +70,9 @@ print(sum(digits))
 squares2 = [square**2 for square in range(1, 11)]
 print(squares2)
 
+del squares2[0]
+print(squares2)
+
 
 
 
